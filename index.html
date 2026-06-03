@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="纵横比大师是一款静态部署友好的图片、视频与屏幕尺寸比例计算器。" />
+    <meta name="theme-color" content="#0284c7" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="纵横比大师" />
+    <meta property="og:description" content="快速计算分辨率、简化比例、比例系数与最大公约数。" />
+    <title>纵横比大师 | 图片与视频比例计算器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-primary-200 selection:text-primary-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

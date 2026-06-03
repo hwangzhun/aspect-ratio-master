@@ -1,0 +1,5 @@
+{
+  "name": "纵横比大师",
+  "description": "静态部署友好的图片、视频与屏幕尺寸比例计算器。",
+  "requestFramePermissions": []
+}
